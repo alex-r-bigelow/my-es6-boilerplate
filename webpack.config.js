@@ -21,12 +21,19 @@ module.exports = {
       './build'
     ]),
     new HtmlWebpackPlugin({
-      template: 'index.html', // Load a custom template 
-      inject: 'body' // Inject all scripts into the body 
+      template: 'index.html', // Load a custom template
+      inject: 'body' // Inject all scripts into the body
     })
   ],
   module: {
     loaders: [
+      {
+        test: /\.htaccess$/,
+        loader: 'file-loader',
+        query: {
+          name: '.htaccess'
+        }
+      },
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
