@@ -1,7 +1,7 @@
 {
-  "name": "efg",
+  "name": "my-es6-boilerplate",
   "version": "0.1.0",
-  "description": "Excel for graphs. Less trademark-infringing name coming soon.",
+  "description": "Boilerplate for webpack, according to Alex Bigelow.",
   "repository": {
     "type": "git"
   },
