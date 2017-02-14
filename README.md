@@ -8,9 +8,9 @@ Setup:
 
 Development:
 ============
-    webpack-dev-server --progress --verbose --colors --watch
+    webpack-dev-server --progress --colors --watch
 
 Deployment:
 ===========
     webpack
-Bundles everything into `build/`
+Bundles everything into `docs/`
