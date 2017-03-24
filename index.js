@@ -1,4 +1,3 @@
-import './.htaccess';
-import * as d3 from './lib/d3.min.js';
+import * as d3 from 'd3';
 
 d3.select('body').text('ES6 Boilerplate');
