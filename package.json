@@ -7,7 +7,7 @@
   },
   "author": "Alex Bigelow",
   "scripts": {
-    "prepublish": "cd lib; ../node_modules/rollup/bin/rollup -c && ../node_modules/uglify-js/bin/uglifyjs d3.js -c -m -o d3.min.js"
+    "prepare": "cd lib; ../node_modules/rollup/bin/rollup -c && ../node_modules/uglify-js/bin/uglifyjs d3.js -c -m -o d3.min.js"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
@@ -29,6 +29,7 @@
     "sass-loader": "^6.0.3",
     "style-loader": "^0.13.0",
     "uglify-js": "^2.7.5",
+    "url-loader": "^0.5.8",
     "webpack": "^2.2.1"
   },
   "dependencies": {

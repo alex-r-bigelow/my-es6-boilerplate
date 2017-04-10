@@ -8,11 +8,10 @@ Magic going on in here:
 Setup:
 ======
     npm install
-    npm run prepublish
 
 Development:
 ============
-    webpack-dev-server --progress --colors --watch
+    webpack-dev-server --progress
 
 Deployment:
 ===========
