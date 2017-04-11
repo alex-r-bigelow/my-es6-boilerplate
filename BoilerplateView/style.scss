@@ -8,6 +8,6 @@
   bottom: 1em;
 
   image {
-    filter: imgColorFilter($selectionDarkColor);
+    filter: imgColorFilter($darkUiColor);
   }
 }
