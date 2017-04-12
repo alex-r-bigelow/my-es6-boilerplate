@@ -1,6 +1,6 @@
 This contains the webpack boilerplate for my personal projects, but feel free to appropriate any of this for stuff that you do.
 
-I have some more involved boilerplates that are less bare-bones; check out the `extra-goodies` branch, or even the `mure-boilerplate` if you're wanting to build a Mure app.
+Each branch in this repo has a different level of bare-bone-ness; listed from simple to complex: `master`, `extra-goodies`, `mure-boilerplate`.
 
 Magic going on in here:
   - This should feel at least a little like regular web development, where we can pretend that an `index.html` file is the entry point. The javascript file (`index.js`) gets included in the HTML body automagically without any special tags.
